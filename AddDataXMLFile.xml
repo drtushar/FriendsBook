@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/AddDataImg/Add1.PNG</ImageUrl>
+    <NavigateUrl>https://www.youtube.com/</NavigateUrl>
+    <AlternateText>Network issues!plz visit https://www.youtube.com/ </AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>~/AddDataImg/Add2.PNG</ImageUrl>
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>Network issues!plz visit http://www.google.com/ </AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>~/AddDataImg/Add3.PNG</ImageUrl>
+    <NavigateUrl>http://www.bing.com/</NavigateUrl>
+    <AlternateText>Network issues!plz visit http://www.bing.com </AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>~/AddDataImg/Add4.PNG</ImageUrl>
+    <NavigateUrl>https://www.facebook.com/</NavigateUrl>
+    <AlternateText>Network issues!plz visit https://www.facebook.com/ </AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>~/AddDataImg/CoolCat.PNG</ImageUrl>
+    <NavigateUrl>https://www.linkedin.com/</NavigateUrl>
+    <AlternateText>Network issues!plz visit https://www.linkedin.com/ </AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+</Advertisements>

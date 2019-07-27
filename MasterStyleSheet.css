@@ -1,0 +1,84 @@
+﻿html, body{
+    padding:0px;
+    margin:0px;
+     height:100%;
+}
+#Wrapper{
+    min-height: 100%;
+    position:relative;
+    width:100%;
+}
+#main{
+    padding-bottom:60px;
+}
+.footer{
+   background-image : url(HeaderImg.PNG);
+    width : 100%;
+    height:70px;
+    overflow:hidden;
+    position:absolute;
+    bottom: 0; 
+}
+.HeaderLine{
+    background-image : url(HeaderImg.PNG);
+    width : 100%;
+    height:60px;
+    
+}
+.HeaderDiv
+{
+    width:auto;
+    margin: auto;
+}
+.HeaderLogo{
+    font-size:50px;
+    font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+    float:left;
+}
+.HeaderMenu{
+    float:right;
+}
+.HeaderMenu ul{
+    margin:0px;
+    padding:0px;
+}
+.HeaderMenu ul li{
+     display:inline-block;
+    width:80px;
+}
+.HeaderMenu ul li a{
+   font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+    font-size:30px;
+    color:white;
+    display:block;
+}
+.HeaderMenu ul li a:hover{
+     color:red;
+}
+.footer-view{
+    text-align:center;
+}
+.footer-view ul{
+     margin:0px;
+    padding:0px;
+}
+.footer-view ul li{
+      display:inline-block;
+    width:80px;
+}
+.footer-view ul li a{
+    font-size:15px;
+    font-family: Calibri;
+    color:#fff;
+    text-decoration:none;
+}
+.footer-view ul li a:hover{
+    color:red;
+}
+.footer-view h1{
+    font-size:30px;
+    font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+}

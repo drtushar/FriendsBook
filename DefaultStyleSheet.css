@@ -1,0 +1,34 @@
+﻿.AdRotatorDH h1{
+    color:white;
+    font-size:40px;
+    font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+    float:right;
+    height:40px;
+    width:600px;
+}
+.AdRotatorD{
+    border-top-width:thin;
+    border-bottom-width:thick;
+    border :inset;
+    border-color:red;
+    float:right;
+}
+.AdRotatorDH h2{
+    color:white;
+    font-size:45px;
+    font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+    float:left;
+    height:30px;
+    width:400px;
+}
+.AdRotatorDH p{
+    color:white;
+    font-size:40px;
+    font-family:'Edwardian Script ITC';
+    text-shadow: 1px 2px 3px #ff0000;
+    float:left;
+    height:330px;
+    width:600px;
+}

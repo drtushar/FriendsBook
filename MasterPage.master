@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>FriendsBook</title>
+    <link href="MasterStyleSheet.css" rel="stylesheet" />
+    <style>
+		body{
+		background-image: url("DarkBlack.PNG");	
+        background-size: cover;	
+		margin: 0; 
+		padding: 0;
+        height:100%;
+		}
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="Wrapper">
+
+    <form id="form1" runat="server">
+        
+  
+
+    <div class="HeaderLine">
+        <div class="HeaderDiv">
+            <div class="HeaderLogo">
+            FriendsBook
+            </div>
+
+            <div class="HeaderMenu">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="SignUp.aspx">SignUp</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <main id="main">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+    </div>
+    
+
+    </main>
+
+
+     <div class="footer">
+         <div class="footer-view">
+              <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="SignUp.aspx">SignUp</a></li>
+                </ul>
+             <h1>FriendsBook</h1>
+         </div>
+     </div> 
+        
+                  
+    </form>
+    
+   </div>
+</body>
+
+</html>
